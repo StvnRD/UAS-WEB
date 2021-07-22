@@ -12,4 +12,13 @@
 
 + Tampilan Buat Antrian Baru
 
-![2 Antrian Baru](https://user-images.githubusercontent.com/56438848/126663170-72828e70-1078-42ae-bc4a-5d866ad791cb.JPG)
+![2 Antrian Baru](https://user-images.githubusercontent.com/56438848/126663723-ee39a5b5-d8ff-4c98-af0e-ac5ca0eb20be.JPG)
+
+
+
+
+
+
+
+
+</br></br>
