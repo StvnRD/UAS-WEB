@@ -5,6 +5,42 @@
     <title><?= $title; ?></title>
     <link rel="stylesheet" href="<?= base_url('/style.css');?>">
     <style>
+        
+            a, button,input[type=submit],input[type=reset] {
+            font-family: sans-serif;
+            font-size: 15px;
+            background: #1f5faa;
+            color: white;
+            border: white 1px solid;
+            border-radius: 10px;
+            padding: 3px 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover, button:hover, input[type=submit]:hover, input[type=reset]:hover{
+            opacity:0.9;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+ 
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: rgb(19, 110, 170);
+            color: white;
+        }
+        tr:hover {background-color: #f5f5f5;}
+
         .btn2 {
             background-color: #1f5faa;
             border: none;
