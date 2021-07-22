@@ -62,6 +62,7 @@
                     </color>
                     <center><a href="antrian" button class="btn2">BUAT</button></a><center>  
                     </br>
+                    <?= $this->include('template/footer'); ?>
     </div>
 </body>
 </html>
