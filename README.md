@@ -21,7 +21,7 @@ https://antrianloket02.000webhostapp.com_
 
 </br>
 
-**_ Belum terlalu sempurna, karna halaman awal pada webhost tidak bisa tampil seperti pada localhost yang di Screenshot. _**
+**_Belum terlalu sempurna, karna halaman awal pada webhost tidak bisa tampil seperti pada localhost yang di Screenshot_**
 
 </br></br>
 </br></br>
