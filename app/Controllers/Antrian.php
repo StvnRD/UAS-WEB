@@ -1,6 +1,6 @@
 <?php
 namespace App\Controllers;
-use App\Models\ArtikelModel;
+use App\Models\AntrianModel;
 class Artikel extends BaseController
 {
     public function index()
@@ -14,12 +14,12 @@ class Artikel extends BaseController
     { 
         // validasi data. 
         $validation = \Config\Services::validation(); 
-        $validation->setRules(['judul' => 'required']); 
+        $validation->setRules(['nama' => 'required']); 
         $isDataValid = $validation->withRequest($this->request)->run(); 
         
         if ($isDataValid) 
         { 
-            $artikel = new ArtikelModel(); 
+            $artikel = new AntrianModel(); 
             $artikel->insert([ 
                 'nama' => $this->request->getPost('nama'), 
                 'jenis_kelamin' => $this->request->getPost('jenis_kelamin'), 
@@ -31,6 +31,6 @@ class Artikel extends BaseController
             return redirect('antrian'); 
         } 
         $title = "Buat Antrian Baru"; 
-        return view('antrian/form_add', compact('title')); 
+        return view('antrian/antrianbaru', compact('title')); 
         }
 }

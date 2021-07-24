@@ -66,6 +66,11 @@
     </br> <hr> </br>
         <form method="post"> </br>
             <font color=black>
+                </br></br>
+                <tr><td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nomor Antrian&emsp;&ensp;:</td><td>
+                        <input type="number" name="Masukkan angka">&ensp;
+                </td></tr></br>
+                </br></br>
                 <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nama &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;: </label>
                 <input type="text" name="nama" placeholder="Nama lengkap..." /></br>
                 </br></br>
@@ -84,10 +89,6 @@
                             <option value="Wirausaha">Wirausaha</option>
                         </select>
                     </td></tr></br>
-                    </br></br>
-                    <tr><td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nomor Antrian&emsp;&ensp;:</td><td>
-                        <input type="number" name="Masukkan angka">&ensp;
-                    </td></tr>
                     </br></br></br>
                     <tr><td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Loket &emsp;&emsp; &emsp; &emsp; &emsp;:</td><td>
                         <input type="radio" name="loket1" value="1"> 1 &ensp;&ensp;
