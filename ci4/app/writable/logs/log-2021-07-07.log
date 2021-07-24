@@ -1,0 +1,28 @@
+CRITICAL - 2021-07-07 10:44:28 --> syntax error, unexpected ':'
+#0 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(487): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#2 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\app\Views\artikel\form_add.php(1): CodeIgniter\View\View->include('template/admin_...')
+#3 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('D:\\S O F T W A ...')
+#4 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\View->render('artikel/form_ad...', Array, true)
+#6 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(67): view('artikel/form_ad...', Array)
+#7 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(928): App\Controllers\Artikel->add()
+#8 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('D:\\S O F T W A ...')
+#12 {main}
+CRITICAL - 2021-07-07 10:44:31 --> syntax error, unexpected ':'
+#0 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(487): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#2 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\app\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_...')
+#3 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(230): include('D:\\S O F T W A ...')
+#4 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\Common.php(1271): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#6 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\app\Controllers\Artikel.php(42): view('artikel/admin_i...', Array)
+#7 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(928): App\Controllers\Artikel->admin_index()
+#8 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\S O F T W A R E\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(45): require_once('D:\\S O F T W A ...')
+#12 {main}

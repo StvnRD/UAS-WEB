@@ -1,0 +1,10 @@
+CRITICAL - 2021-07-21 20:59:58 --> syntax error, unexpected 'url' (T_STRING), expecting ';' or ','
+#0 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\system\Common.php(1271): CodeIgniter\View\View->render('antrian', Array, true)
+#2 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\app\Controllers\page.php(24): view('antrian', Array)
+#3 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\system\CodeIgniter.php(928): App\Controllers\Page->antrian()
+#4 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\S O F T W A R E\xampp\htdocs\antrian\ci4\system\Commands\Server\rewrite.php(45): require_once('D:\\S O F T W A ...')
+#8 {main}
